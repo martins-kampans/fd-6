@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <style>
+        .contact-form{
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            width: 30%;
+            padding: 5%;
+            margin: 0 auto;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: gray;
+            border-radius: 10px;
+        }
+        h1{
+            color: white;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>   
+    <form action="page.html" method="GET" class="contact-form">
+        <h1>Pierakstīties</h1>
+        <label for="name">Vārds: </label>
+        <input type="text"  name="name" id="name" placeholder="Ievadi vārdu..." required>
+        <br>
+        <br>
+        <label for="password">Parole: </label>
+        <input type="password"  name="password" id="password" placeholder="Ievadi paroli..." required>
+        <br>
+        <br>
+        <button class="button" type="submit" name="submit">Apstiprinu</button>
+        <br>
+        <br>
+        <label for="accept"><a href="http://www.google.com" target="_blank">Piekrītu noteikumiem:</a></label>
+        <input type="checkbox" name="accept" id="accept">
+    </form>
+</body>
+</html>

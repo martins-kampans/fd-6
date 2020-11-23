@@ -1,0 +1,22 @@
+body{
+    background: rgb(163, 163, 163);
+    font-family: 'Raleway', sans-serif;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+    text-transform: uppercase;
+}
+.text-block{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.6em;
+}
+#hyperlink{
+    display: block;
+    margin-top: 20px;
+    color: rgb(248, 235, 120);
+}

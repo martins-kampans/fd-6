@@ -23,6 +23,13 @@ ul li{
     padding: 2vh 20vh;
     margin: 10% auto;
 }
+.logo .picture{
+    background-image: url(./logo.png);
+    background-size: cover;
+    width: 100%;
+    min-height: 300px;
+    background-position: center;
+}
 .logo:hover{
     border: 3px solid red;
 }

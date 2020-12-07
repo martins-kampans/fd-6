@@ -1,0 +1,129 @@
+body{
+    font-family: arial;
+    
+    /* font-weight: 500; */
+}
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+nav{
+    background:#cdcdcd;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 1em;
+}
+a.thick{
+    font-weight: bold;
+}
+a:hover{
+    color: #25b7d3;
+    background: #fff;
+    /* border-bottom: 1px solid #cdcdcd; */
+}
+.logo{
+    text-align: center;
+    margin-top: 1%;
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px; 
+    top:5px
+}
+header{
+    border-bottom: 1px solid #cdcdcd;
+}
+main{
+    width: 80%;
+    padding: .5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    min-height: 300px;
+}
+section{
+    width: 70%;
+}
+section p{
+    line-height: 1.5em;
+    margin: 1em 0;
+}
+.aside{
+    width: 30%;
+    background-image: url(../img/cat.png); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: .5em;
+    margin-top: 2em;
+    /* background-position: center; */
+}
+.aside h2{
+    text-align: center;
+    visibility: hidden;
+}
+.aside:hover h2{
+    visibility: visible;
+}
+.aside:hover #container{
+    opacity: 0.5;
+}
+#info{
+    background: #cdcdcd;
+    display: flex;
+    align-items: center;
+}
+#info p{
+    margin-left: .5em;
+}
+#info .icon{
+    padding: .5em;
+    color: #25b7d3;
+}
+footer{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(170, 170, 170);
+}
+@media(max-width: 600px){
+    main{
+        width:98%;
+        border-left: 0px solid;
+        border-right: 0px solid;
+    }
+    .logo{
+         background-image: url(../img/logo-mobile.svg)
+    }
+    section{
+        width: 100%;
+        padding: 0 .5em;
+    }
+    .aside{
+        width: 0%;
+    }
+    #info{
+        flex-direction: column;
+        margin-bottom: 1em;
+    }
+    #info p{
+        margin: 0;
+    }
+    .logo{
+        margin-bottom: 1%;
+        
+    }
+    
+}

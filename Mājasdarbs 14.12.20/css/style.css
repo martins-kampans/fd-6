@@ -229,6 +229,8 @@ footer .arrow-button{
 footer p{
     margin-top: 9px;
 }
+
+/* TODO: fix @media */
 /* tablet */
 @media(min-width: 375px){    
     h1{

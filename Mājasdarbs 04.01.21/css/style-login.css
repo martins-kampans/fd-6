@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Global */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-image: url(../img/mobile/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Header */
+.container{
+    width: 100%;
+    min-height: 70px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+}
+.container .logo{
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21px;
+}
+nav.tablet{
+    display: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.tablet ul .cloud{
+    background-image: url(../img/tablet/icon-cloud.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+.tablet li:nth-child(3){
+    margin-left: 5px;
+}
+nav ul .twitter{
+    background-image: url(../img/tablet/icon-t.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+nav ul .facebook{
+    background-image: url(../img/tablet/icon-f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer; 
+}
+nav ul .instagram{
+    background-image: url(../img/tablet/icon-i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+.burger{
+    background-image: url(../img/mobile/burger-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 39px;
+    cursor: pointer;
+}
+
+/* Main/Sign Up */
+main{
+    margin: 90px auto 0;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 3px;
+}
+.sign-up{
+    max-width: 360px;
+    background-image: linear-gradient(to right, #AB47BC
+    ,#7B1FA2);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin:0 auto;
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+main .sign-up h1{
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 35px;
+    line-height: 23px;
+    text-transform: capitalize;
+ }
+ main .media{
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+ }
+ .sign-up .facebook{
+    background-image: url(../img/mobile/icon-f.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 21px;
+    cursor: pointer;
+ }
+ .sign-up .twitter{
+    background-image: url(../img/mobile/icon-t.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 21px;
+    cursor: pointer;
+    margin: 0 38px;
+ }
+ .sign-up .google{
+    background-image: url(../img/mobile/icon-g+.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 21px;
+    cursor: pointer;
+ }
+ main h2{
+    text-transform: capitalize;
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+ }
+ /* Contact-form */
+ form{
+     text-align: center;
+ }
+ .contact-form .field{
+     display: flex;
+     padding: 34px 0 15px;
+     justify-content: center;
+ }
+ .contact-form .field input{
+     padding-bottom: 7px;
+ }
+ .contact-form .field .face{
+    background-image: url(../img/mobile/face-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+ }
+ .contact-form .field .mail{
+    background-image: url(../img/mobile/mail-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+ }
+ .contact-form .field .lock{
+    background-image: url(../img/mobile/lock-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+ }
+ .contact-form .field input{
+     border: none;
+     border-bottom: 1px solid #D2D2D2;
+     width: 304px;
+ }
+ .contact-form .btn{
+     border: none;
+     background: none;
+     text-transform: uppercase;
+     font-size: 14px;
+     color: #9C27B0;
+     cursor: pointer;
+     padding: 5px;
+     margin: 44px 0 36px;
+ }
+ /* Footer */
+ footer .bottom ul{
+     display: flex;
+     margin: 66px 0 30px 29px;
+     font-size: 12px;
+ }
+ footer .bottom ul li{
+    margin-left: 34px;
+ }
+ footer .bottom ul li:nth-child(1){
+    margin-left: 0;
+ }
+ footer .bottom ul li a{
+    cursor: pointer;
+ }
+ footer p{
+     font-size: 14px;
+     text-align: center;
+     margin-bottom: 27px;
+ }
+ @media screen and (min-width: 786px){
+     /* Header */
+     .container{
+        padding: 0 24px;
+     }
+     .burger{
+         display: none;
+     }
+     nav.tablet{
+         display: block;
+     }
+     nav ul{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+     }
+     nav ul li{
+         margin-left: 27px;
+     }
+     /* main */
+     main{
+        max-width: 353px;
+     }
+     .sign-up{
+        max-width: 314px;
+     }
+     /*Form */
+     .contact-form .field input{
+        width: 269px;
+    }
+     /* Footer*/
+     footer .bottom ul{
+        margin: 66px 0 30px 40px;
+     }
+ }
+ @media screen and (min-width: 1440px){
+     /* Header */
+    .container{
+        background: none;
+        padding: 39px 144px;
+     }
+     /* Main */
+     main{
+        max-width: 365px;
+     }
+     .sign-up{
+        max-width: 324px;
+     }
+     /*Form */
+     .contact-form .field input{
+        width: 269px;
+    }
+     footer{
+         display: flex;
+         align-items: center;
+         position: relative;
+     }
+     footer .bottom ul{
+        margin: 73px 0 30px 160px;
+     }
+     footer p{
+         position: absolute;
+         right: 144px;
+         bottom: 0;
+     }  
+ }
+
